@@ -2,12 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class mushdis : MonoBehaviour {
+public class greatwallStandup : MonoBehaviour {
 
-    public GameObject mush;
 	// Use this for initialization
 	void Start () {
-        
+		
 	}
 	
 	// Update is called once per frame
@@ -19,9 +18,9 @@ public class mushdis : MonoBehaviour {
     {
         if (other.tag == "ball")
         {
-            Destroy(mush.gameObject, 0);
-            Destroy(this.gameObject, 0);
+            this.transform.up = Vector3.up;
+            //this.transform.position = new Vector3(-90.69019f, 137.7208f, 80.24561f);
         }
+
     }
 }
-

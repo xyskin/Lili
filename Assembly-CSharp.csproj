@@ -46,9 +46,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scrpits\Childrenstandup.cs" />
+     <Compile Include="Assets\Scrpits\Childrenstandupqq.cs" />
      <Compile Include="Assets\Scrpits\Move.cs" />
+     <Compile Include="Assets\Scrpits\Standup.cs" />
      <Compile Include="Assets\Scrpits\TowerStandup.cs" />
+     <Compile Include="Assets\Scrpits\cameram.cs" />
+     <Compile Include="Assets\Scrpits\greatwallStandup.cs" />
      <Compile Include="Assets\Scrpits\mushdis.cs" />
+     <Compile Include="Assets\Scrpits\normalrotation.cs" />
+     <Compile Include="Assets\Scrpits\normalrotationEditor.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
