@@ -58,7 +58,6 @@
      <Compile Include="Assets\Scrpits\greatwallStandup.cs" />
      <Compile Include="Assets\Scrpits\mushdis.cs" />
      <Compile Include="Assets\Scrpits\normalrotation.cs" />
-     <Compile Include="Assets\Scrpits\normalrotationEditor.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files (x86)/unity3d/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
